@@ -71,27 +71,28 @@ $npm i express ejs orientjs
 ```markdown
 $node app.js
 ```
+### Buka Localhost 3000
+```markdown
+http://localhost:3000/
+```
 Lalu akan ada tampilan seperti ini :
 ![Image of Screenshoot](https://github.com/kempess/OrientDB-CRUD/blob/master/img/Sample.jpeg)
 
 
 
 ##### Install Docker 
-```markdown
 [Docker](https://www.docker.com/)
-```
+
 ##### Install Visual Studio Code
-```markdown
 [Visual Studio Code](https://code.visualstudio.com/)
-```
+
 ##### Install Gitbash
-```markdown
 [Gitbash](https://git-scm.com/downloads)
 atau
+```markdown
 git clone https://github.com/git/git
 ```
 
 ##### Install OrientDB
-```markdown
 [OrientDb](https://orientdb.org/download)
-```
+
