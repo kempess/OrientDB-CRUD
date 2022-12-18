@@ -1,9 +1,6 @@
 # OrientDB-CRUD
 The following is an assignment to fulfill a database management course regarding OrientDB database connectivity in CRUD.
 
-```markdown
-```
-
 ### Clone GIT .
 ```markdown
 $git clone https://github.com/kempess/https://github.com/kempess/OrientDB-CRUD.git
@@ -32,12 +29,50 @@ orientdb {server=remote:localhost}>
 ```markdown
 orientdb> connect remote:localhost root rootpwd 
 ```
-
-
-
-### Install : Ejs, express dan orientjs pada terminal
+> Membuat Kelas "Book"
+```markdown
+CREATE CLASS Book IF NOT EXISTS EXTENDS V
+```
+> Membuat Property id
+```markdown
+CREATE PROPERTY Book.id IF NOT EXISTS INTEGER (MANDATORY TRUE)
+```
+_Keterangan : Id menjadi mandatory atau primary key pada CRUD ini_
+> Membuat Property Title
+```markdown
+CREATE PROPERTY Book.title IF NOT EXISTS STRING
+```
+> Membuat Property Author
+```markdown
+CREATE PROPERTY Book.author IF NOT EXISTS STRING
+```
+> Membuat Property Year
+```markdown
+CREATE PROPERTY Book.year IF NOT EXISTS STRING
+```
+> Membuat Vertex pada class
+```markdown
+CREATE VERTEX BOOK SET id='<Number>', Title='<Judul Buku>', Author='<Penulis Buku', year='<Tahun>'
+```
+> Menampilkan data buku
+```markdown
+SELECT FROM BOOK
+```
+> Keluar dari orientdb dan mendisconnect kan server
+```markdown
+EXIT
+```
+# Buka Terminal di Visual Studio Code
+### Install : Ejs, express dan orientjs
 ```markdown
 $npm i express ejs orientjs 
 ```
+### Jalankan app.js
+```markdown
+$node app.js
+```
+Lalu akan ada tampilan seperti ini :
+![Image of Screenshoot](https://github.com/kempess/OrientDB-CRUD/blob/master/img/Sample.jpeg)
+
 
 
