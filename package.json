@@ -1,0 +1,24 @@
+{
+  "name": "orientdb-crud",
+  "version": "1.0.0",
+  "description": "The following is an assignment to fulfill a database management course regarding OrientDB database connectivity in CRUD.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kempess/OrientDB-CRUD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kempess/OrientDB-CRUD/issues"
+  },
+  "homepage": "https://github.com/kempess/OrientDB-CRUD#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "orientjs": "^2.2.11"
+  }
+}
