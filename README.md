@@ -7,8 +7,8 @@ $git clone https://github.com/kempess/https://github.com/kempess/OrientDB-CRUD.g
 ```
 ### Buka Docker Dekstop (jika menggunakan docker)
 ```markdown
-> docker pull orientdb:latest
-> docker run -d --name orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=rootpwd orientdb
+docker pull orientdb:latest
+docker run -d --name orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=rootpwd orientdb
 ```
 > untuk mengakses studio tekan perintah dibawah ini :
  ```markdown
@@ -16,7 +16,7 @@ URL http://localhost:2480/
 ```
 > untuk mengakses konsol jalankan perintah dibawah ini :
 ```markdown
- docker exec -it orientdb  /bin/sh
+docker exec -it orientdb  /bin/sh
 lalu
 #console.sh  jikalau ingin mengcheck server maka #server.sh
 ```
@@ -76,3 +76,22 @@ Lalu akan ada tampilan seperti ini :
 
 
 
+##### Install Docker 
+```markdown
+[Docker](https://www.docker.com/)
+```
+##### Install Visual Studio Code
+```markdown
+[Visual Studio Code](https://code.visualstudio.com/)
+```
+##### Install Gitbash
+```markdown
+[Gitbash](https://git-scm.com/downloads)
+atau
+git clone https://github.com/git/git
+```
+
+##### Install OrientDB
+```markdown
+[OrientDb](https://orientdb.org/download)
+```
