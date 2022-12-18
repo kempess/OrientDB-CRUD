@@ -80,19 +80,19 @@ Lalu akan ada tampilan seperti ini :
 
 
 
-##### Install Docker 
-[Docker](https://www.docker.com/)
+##### Install Docker :
+[Disini](https://www.docker.com/)
 
-##### Install Visual Studio Code
-[Visual Studio Code](https://code.visualstudio.com/)
+##### Install Visual Studio Code :
+[Disini](https://code.visualstudio.com/)
 
-##### Install Gitbash
-[Gitbash](https://git-scm.com/downloads)
+##### Install Gitbash :
+[Disini](https://git-scm.com/downloads)
 atau
 ```markdown
 git clone https://github.com/git/git
 ```
 
-##### Install OrientDB
-[OrientDb](https://orientdb.org/download)
+##### Install OrientDB :
+[Disini](https://orientdb.org/download)
 
