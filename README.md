@@ -93,7 +93,7 @@ $node app.js
 http://localhost:3000/
 ```
 Lalu akan ada tampilan seperti ini :
-![Image of Screenshoot](https://github.com/kempess/OrientDB-CRUD/blob/master/img/Sample.jpeg)
+![Image of Screenshoot](https://github.com/kempess/OrientDB-CRUD/blob/master/img/Sample.png)
 
 
 
