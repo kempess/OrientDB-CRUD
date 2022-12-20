@@ -70,6 +70,15 @@ SELECT FROM Mahasiswa
 ```markdown
 EXIT
 ```
+>> Keterangan Docker
+```markdown
+Jika ingin menghapus vertex :
+DELETE vertex <kode yang ingin dihapus (contoh: #21:0)
+
+Jika ingin menghapus database :
+DROP database <remote>:databases/<database kamu> <username> <password>
+
+```
 # Buka Terminal di Visual Studio Code
 ### Install : Ejs, express dan orientjs
 ```markdown
