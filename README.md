@@ -29,6 +29,10 @@ orientdb {server=remote:localhost}>
 ```markdown
 orientdb> connect remote:localhost root rootpwd 
 ```
+```markdown
+> Membuat database
+CREATE DATABASE plocal:databases/mahasiswa root rootpwd
+```
 > Membuat Kelas "Book"
 ```markdown
 CREATE CLASS Book IF NOT EXISTS EXTENDS V
