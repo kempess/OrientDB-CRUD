@@ -33,34 +33,34 @@ orientdb> connect remote:localhost root rootpwd
 ```markdown
 CREATE DATABASE plocal:databases/mahasiswa root rootpwd
 ```
-> Membuat Kelas "Book"
+> Membuat Kelas "Mahasiswa"
 ```markdown
-CREATE CLASS Book IF NOT EXISTS EXTENDS V
+CREATE CLASS Mahasiswa IF NOT EXISTS EXTENDS V
 ```
 > Membuat Property id
 ```markdown
-CREATE PROPERTY Book.id IF NOT EXISTS INTEGER (MANDATORY TRUE)
+CREATE PROPERTY Mahasiswa.id IF NOT EXISTS INTEGER (MANDATORY TRUE)
 ```
 _Keterangan : Id menjadi mandatory atau primary key pada CRUD ini_
 > Membuat Property Title
 ```markdown
-CREATE PROPERTY Book.title IF NOT EXISTS STRING
+CREATE PROPERTY Mahasiswa.title IF NOT EXISTS STRING
 ```
 > Membuat Property Author
 ```markdown
-CREATE PROPERTY Book.author IF NOT EXISTS STRING
+CREATE PROPERTY Mahasiswa.author IF NOT EXISTS STRING
 ```
 > Membuat Property Year
 ```markdown
-CREATE PROPERTY Book.year IF NOT EXISTS STRING
+CREATE PROPERTY Mahasiswa.year IF NOT EXISTS STRING
 ```
 > Membuat Vertex pada class
 ```markdown
-CREATE VERTEX BOOK SET id='<Number>', Title='<Judul Buku>', Author='<Penulis Buku', year='<Tahun>'
+CREATE VERTEX Mahasiswa SET id='<Number>', name='<nama mahasiswa>', jurusan='<Nama jurusan>', angkatan='<Tahun>', dospem='<dosen pembimbing>'
 ```
-> Menampilkan data buku
+> Menampilkan data Mahasiswa
 ```markdown
-SELECT FROM BOOK
+SELECT FROM Mahasiswa
 ```
 > Keluar dari orientdb dan mendisconnect kan server
 ```markdown
