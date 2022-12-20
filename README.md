@@ -42,17 +42,21 @@ CREATE CLASS Mahasiswa IF NOT EXISTS EXTENDS V
 CREATE PROPERTY Mahasiswa.id IF NOT EXISTS INTEGER (MANDATORY TRUE)
 ```
 _Keterangan : Id menjadi mandatory atau primary key pada CRUD ini_
-> Membuat Property Title
+> Membuat Property Nama
 ```markdown
-CREATE PROPERTY Mahasiswa.title IF NOT EXISTS STRING
+CREATE PROPERTY Mahasiswa.name IF NOT EXISTS STRING
 ```
-> Membuat Property Author
+> Membuat Property Jurusan
 ```markdown
-CREATE PROPERTY Mahasiswa.author IF NOT EXISTS STRING
+CREATE PROPERTY Mahasiswa.jurusan IF NOT EXISTS STRING
 ```
-> Membuat Property Year
+> Membuat Property Angkatan
 ```markdown
-CREATE PROPERTY Mahasiswa.year IF NOT EXISTS STRING
+CREATE PROPERTY Mahasiswa.angkatan IF NOT EXISTS integer
+```
+> Membuat Property Dosen Pembimbing
+```markdown
+CREATE PROPERTY Mahasiswa.dospem IF NOT EXISTS STRING
 ```
 > Membuat Vertex pada class
 ```markdown
